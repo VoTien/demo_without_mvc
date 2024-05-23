@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.vtrieutien</groupId>
   <artifactId>demo_without_boot</artifactId>
-  <packaging>jar</packaging>
+  <packaging>war</packaging>
   <version>0.0.1-SNAPSHOT</version>
   <name>demo_without_boot Maven Webapp</name>
   <url>http://maven.apache.org</url>
