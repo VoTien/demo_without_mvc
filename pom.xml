@@ -3,7 +3,6 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.vtrieutien</groupId>
   <artifactId>demo_without_boot</artifactId>
-  <packaging>war</packaging>
   <version>0.0.1-SNAPSHOT</version>
   <name>demo_without_boot Maven Webapp</name>
   <url>http://maven.apache.org</url>
@@ -22,6 +21,12 @@
   </dependencies>
   <build>
     <finalName>demo_without_boot</finalName>
+	<plugins>
+		<plugin>
+			<artifactId>maven-war-plugin</artifactId>
+			<version>3.4.0</version>
+		</plugin>
+	</plugins>
   </build>
 	<properties>
 	   <maven.compiler.source>16</maven.compiler.source>
